@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type = "text/javascript" src = "googlemap.js"> </script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBaZVYJUVr_uXwFOBEGr_7rTisjIJ2c7oA&callback=initMap"
+    > </script>
+
+
+  <style>
+  body {
+    background: url("donation4.jpg");
+    background-size: 100%;
+
+  }
+  #map{
+    z-index: 5;
+    position: relative;
+    display: relative;
+    height:100%;
+  }
+
+
+  </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" id="explore" >Explore!</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">Search for nearby charity</a></li>
+      <li><a href="#">Calendar for special events</a></li>
+      </li>
+      <li><a href="#">I'm a charity</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h3 class="text-center" id="title">Find the nearby charity</h3>
+
+</div>
+
+
+<div class="row">
+  <div class="col-sm-1">
+
+  </div>
+
+  <div class="col-sm-1">
+
+
+    <div class="btn-group-vertical">
+         <button href="#" class="btn btn-primary" id="button" onclick = "selectMap()">Clothes</button>
+         <button href="#" class="btn btn-primary" id="button" onclick = "selectMap()">Shoes</button>
+         <button href="#" class="btn btn-primary" id="button" onclick = "selectMap()">Books</button>
+         <a href="#" class="btn btn-primary" id="button">Food</a>
+          <a href="#" class="btn btn-primary" id="button">Others</a>
+          <a href="#" class="btn btn-primary" id="button">Toys</a>
+    </div>
+
+   </div>
+
+    <div class="col-sm-10" id = "map"> </div>
+</div>
+
+</body>
+</html>
+

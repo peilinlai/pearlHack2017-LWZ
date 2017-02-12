@@ -1,0 +1,117 @@
+#explore{
+    color:white;
+}
+
+#title{
+    margin-top:5%;
+    margin-bottom:10%;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:70px;
+    color:#31708f;
+}
+
+#title2{
+    margin-top:5%;
+    margin-bottom:5%;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:70px;
+    color:#31708f;
+}
+
+
+
+
+#subtitle{
+
+    margin-bottom:2%;
+    font-family: 'Slabo 27px', serif;
+    font-size:20px;
+
+
+}
+
+#content{
+
+    font-family: 'Slabo 27px', serif;
+    font-size:17px;
+}
+
+#column{
+    text-align: right;
+}
+
+.app{
+ display:flex;
+}
+
+
+#button{
+    align-content:left;
+}
+
+.jumbotron{
+    background: rgba(211, 211, 211, 0.7);
+}
+
+#prompt{
+    font-family: 'Slabo 27px', serif;
+    font-size:20px;
+    color:#5eb960;
+    margin-bottom:50px;
+}
+#prompt2{
+    font-family: 'Slabo 27px', serif;
+    font-size:20px;
+
+    margin-bottom:50px;
+}
+
+#image1 {
+
+    display: block;
+    margin: auto;
+    width: 50%;
+     border-radius: 50%;
+}
+
+#image2{
+    display: block;
+    margin: auto;
+    width: 50%;
+     border-radius: 8px;
+
+}
+
+
+#image3{
+    display: block;
+    margin: auto;
+    width: 50%;
+     border-radius: 50%;
+
+}
+
+#map{
+    margin-left:15%;
+    margin-bottom:10%;
+}
+
+#mapbar{
+    margin-left:13%;
+    margin-bottom:1%;
+}
+
+#content2{
+    margin-left:13%;
+    margin-bottom:1%;
+    font-family: 'Slabo 27px', serif;
+    font-size:20px;
+    color:#5eb960;
+}
+
+#submit{
+    margin-left:90%;
+}
+
+
+
